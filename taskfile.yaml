@@ -1,0 +1,16 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+
+  check:
+    desc: Ejecutar linter ruff y corregir problemas de estilo
+    cmds:
+      - uv run --dev ruff check --fix .
+      - uv run --dev ruff format .
+
+  run:
+    desc: Ejecutar el pipeline principal de la aplicación
+    cmds:
+      - uv run main.py

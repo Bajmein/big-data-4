@@ -1,0 +1,69 @@
+# ==========================================
+# 🛡️ OMNI-ARCHITECT STANDARD BASE (Security & OS)
+# ==========================================
+
+# 1. Dependencias y Compilados (Bloqueo general)
+node_modules/
+dist/
+build/
+bin/
+obj/
+vendor/
+*.log
+*.sqlite
+*.db
+
+# 2. Configuración de Entorno y Secretos (CRÍTICO)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# 3. Archivos de Sistema Operativo e IDEs (Ruido)
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 4. Logs y Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug/
+logs/
+
+# ==========================================
+# 🐍 PROJECT SPECIFIC: PYTHON & DATA SCIENCE
+# ==========================================
+
+# 5. Data (Local Only)
+*.csv
+*.xlsx
+*.xls
+data/
+raw_data/
+
+# 6. Generated Artifacts (Reports & Plots)
+*.docx
+*.pdf
+*.png
+*.jpg
+images/
+output/
+outputs/
+reports/
+
+# 7. Python Environment & Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
