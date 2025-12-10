@@ -41,10 +41,6 @@ logs/
 # ==========================================
 
 # 5. Data (Local Only)
-*.csv
-*.xlsx
-*.xls
-data/
 raw_data/
 
 # 6. Generated Artifacts (Reports & Plots)
@@ -52,9 +48,7 @@ raw_data/
 *.pdf
 *.png
 *.jpg
-images/
-output/
-outputs/
+
 reports/
 
 # 7. Python Environment & Cache
