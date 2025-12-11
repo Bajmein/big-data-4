@@ -53,7 +53,7 @@ El proyecto utiliza `Taskfile` para simplificar los comandos comunes.
 Para ejecutar todo el proceso (ingesta -> modelado -> reporte):
 
 ```bash
-uv run task run
+task run
 ```
 *Si no tienes instalado `task`, puedes usar el comando equivalente:*
 ```bash
@@ -64,7 +64,7 @@ uv run main.py
 Para revisar y corregir el estilo del código:
 
 ```bash
-uv run task check
+task check
 ```
 
 ### 📂 Salidas (Outputs)
